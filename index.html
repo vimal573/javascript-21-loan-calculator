@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Loan Calculator</title>
+  </head>
+  <body>
+    <div class="formgroup">
+      <h1>Loan Calculator</h1>
+      <!-- amount -->
+      <div>
+        <label for="amount">Amount : </label>
+        <input
+          type="number"
+          name="amount"
+          id="amount"
+          placeholder="Enter amount.."
+          class="amount"
+        />
+      </div>
+
+      <!-- intrest rate -->
+      <div>
+        <label for="Intrest-rate">Intrest rate : </label>
+        <input
+          type="number"
+          name="intrest-rate"
+          id="intrest-rate"
+          placeholder="Enter intrest rate.."
+          class="intrest-rate"
+        />
+      </div>
+
+      <!-- total tenure -->
+      <div>
+        <label for="total-tenure">Total tenure : </label>
+        <input
+          type="number"
+          name="total-tenure"
+          id="total-tenure"
+          placeholder="Enter total tenure(months).."
+          class="total-tenure"
+        />
+      </div>
+
+      <div>
+        <button class="cal-btn">Calculate</button>
+      </div>
+
+      <!-- monthly Emi -->
+      <div>
+        <h2 class="emi">Monthly Emi :</h2>
+      </div>
+
+      <!-- Total payble interest -->
+      <div>
+        <h2 class="total-interst">Total interest :</h2>
+      </div>
+
+      <!-- Total Amount -->
+      <div>
+        <h2 class="total-amount">Total amount :</h2>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
